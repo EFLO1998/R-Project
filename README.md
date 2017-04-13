@@ -2,10 +2,10 @@
 
 load(url('http://bit.ly/2ofVTUg'))
 
-#Exercise 1; this one still seems a bit off considering what the results are in the following exercises
+#Exercise 1
 ```{r}
-unscaledCel<-tData/14
-farhenheitTemps<-unscaledCel*(9/5)+32
+changeinC<-tData/100
+farhenheitTemps<-changeinC*(9/5)+57.2
 mean(farhenheitTemps)
 ```
 
