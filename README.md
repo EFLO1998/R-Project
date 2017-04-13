@@ -37,6 +37,6 @@ september<-c(farhenheitTemps[sepmonths])
 october<-c(farhenheitTemps[octmonths])
 november<-c(farhenheitTemps[novmonths])
 december<-c(farhenheitTemps[decmonths])
-lowhigh<-c(January=c(min(january),max(january)),February=c(min(february),max(february)),March=c(min(march),max(march)),April=c(min(april),max(april)),May=c(min(may),max(may)),June=c(min(june),max(june)),July=c(min(july),max(july)),August=c(min(august),max(august)),September=c(min(september),max(september)),October=c(min(october),max(october)),November=c(min(november),max(november)),December=c(min(december),max(december)))
+lowhigh<-list(January=c(min(january),max(january)),February=c(min(february),max(february)),March=c(min(march),max(march)),April=c(min(april),max(april)),May=c(min(may),max(may)),June=c(min(june),max(june)),July=c(min(july),max(july)),August=c(min(august),max(august)),September=c(min(september),max(september)),October=c(min(october),max(october)),November=c(min(november),max(november)),December=c(min(december),max(december)))
 print(lowhigh)
 ```
