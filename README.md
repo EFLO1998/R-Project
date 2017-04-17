@@ -40,3 +40,21 @@ december<-c(farhenheitTemps[decmonths])
 lowhigh<-list(January=c(min(january),max(january)),February=c(min(february),max(february)),March=c(min(march),max(march)),April=c(min(april),max(april)),May=c(min(may),max(may)),June=c(min(june),max(june)),July=c(min(july),max(july)),August=c(min(august),max(august)),September=c(min(september),max(september)),October=c(min(october),max(october)),November=c(min(november),max(november)),December=c(min(december),max(december)))
 print(lowhigh)
 ```
+
+#Exercise 3
+```{r}
+year <- rep(1881:2012,each=12)
+mon <- rep(c("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep",
+             "Oct","Nov","Dec"),times=(length(1881:2012)))
+
+date <- function(i){
+  return(c(mon[i],year[i]))
+}
+
+index <- function(m,y){
+  date=c(m,y)
+  allDates=cbind(mon,year)
+  for(i in 1:1584)
+    if(m==allDates[i,1]&y==allDates[i,2]) return(i)
+}
+```
