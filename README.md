@@ -44,8 +44,7 @@ print(lowhigh)
 #Exercise 3
 ```{r}
 year <- rep(1881:2012,each=12)
-mon <- rep(c("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep",
-             "Oct","Nov","Dec"),times=(length(1881:2012)))
+mon <- rep((month.name),times=(length(1881:2012))) ##month.name is a built-in function
 
 date <- function(i){
   return(c(mon[i],year[i]))
