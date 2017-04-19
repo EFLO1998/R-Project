@@ -120,9 +120,6 @@ It is still difficult to see a warming trend from 2000-2012. The average tempera
 
 
 **Excercise 8**
-
-Create a plot of the monthly average temperatures starting at January 1990 and ending on December 1999.
-
 ```{r}
 filtertwo<-data[data$year>=1990&data$year<=1999,]
 filtertwo
@@ -134,14 +131,27 @@ Do you see any pattern to the data? Are temperatures rising? Which months had th
 
 Again there is not an obvious pattern of increasing temperatures. The highest average monthly temperature over this time period was in October 1994 and the highest was in September 1994.
 
+
+**Exercise 9**
+
+Plot the annual average temperature of every year from 1990 to 1999.
+
+```{r}
+plot(1990:1999,avetemp[110:119],xlab="Year",ylab="Degrees Fahrenheit",main="Average Temperatures 1990-1999")
+mean(avetemp[110:119])
+```
+Is it easier to see a warming trend? What is the average temperature of the 1990s?
+
+
+
 **Exercise 10**
 ```{r}
 index1890s<-which(data$year%in%seq(1890,1899))
 temps1890s<-data$farhenheitTemps[index1890s]
 plot(1:length(index1890s),temps1890s,xlab="Months of 1890s (starting with January 1890)",ylab="Average Temperatures (in degrees Fahrenheit)",main="1890s Average Temperatures By Months")
 mean(temps1890s)
-filtertwo[mean(filtertwo$farhenheitTemps),]
 ```
 What is the mean temperature of this decade? How does this decade compare to the 1990s?
 The mean temperature is 56.7 Degrees.
-The 1990s mean temperature is 57.74, more than a whole degree warmer.
+
+```
