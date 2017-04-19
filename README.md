@@ -87,6 +87,9 @@ mat <- matrix(farhenheitTemps,byrow=TRUE,ncol=12)
 rownames(mat) <- 1881:2012
 avetemp<-apply(mat,1,mean)
 plot(1881:2012,avetemp,xlab="Year",ylab="Degrees Fahrenheit",main="Average Temperatures by Year")
+
+avetemp[which(avetemp==min(avetemp))]
+avetemp[which(avetemp==max(avetemp))]
 ```
 
 In what years did the highest and lowest average temperatures occur?
