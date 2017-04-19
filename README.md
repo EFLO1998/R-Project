@@ -153,3 +153,15 @@ mean(filtertwo$farhenheitTemps)
 What is the mean temperature of this decade? How does this decade compare to the 1990s?
 The mean temperature is 56.7 Degrees.
 The mean temperature for the 1990s is 57.84, which is more than one degree larger than the 1890s.
+
+**Exercise 11**
+indexfirst44 <- which(data$year%in%seq(1881,1925)) 
+tempsfirst44<-data$farhenheitTemps[indexfirst44]
+plot(1:length(indexfirst44),tempsfirst44,xlab="Months of first 44 years (starting with January 1881)",ylab="Average Temperatures (in degrees Fahrenheit)",main="First 44 Years Average Temperatures By Months")
+indexsecond44 <- which(data$year%in%seq(1926,1969)) 
+tempssecond44<-data$farhenheitTemps[indexsecond44]
+plot(1:length(indexsecond44),tempssecond44,xlab="Months of second 44 years (starting with January 1926)",ylab="Average Temperatures (in degrees Fahrenheit)",main="Second 44 Years Average Temperatures By Months")
+indexlast43 <- which(data$year%in%seq(1970,2012)) 
+tempslast43<-data$farhenheitTemps[indexlast43]
+plot(1:length(indexlast43),tempslast43,xlab="Months of last 43 years (starting with January 1970)",ylab="Average Temperatures (in degrees Fahrenheit)",main="Last 43 Years Average Temperatures By Months")
+
