@@ -94,4 +94,4 @@ avetemp[which(avetemp==max(avetemp))]
 
 In what years did the highest and lowest average temperatures occur?
 
-
+2010 has the highest average temperature, and 1909 has the lowest.
