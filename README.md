@@ -120,6 +120,7 @@ It is still difficult to see a warming trend from 2000-2012. The average tempera
 
 
 **Excercise 8**
+
 Create a plot of the monthly average temperatures starting at January 1990 and ending on December 1999.
 
 ```{r}
