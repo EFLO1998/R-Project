@@ -75,3 +75,17 @@ plot(1881:2012,december,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main
 Does there seem to be a warming trend in your graphs? Type your answer below:
 
 There appears to be a general warming trend, as all 12 of the graphs exhibit strong, positive, linear correlation.
+
+
+
+**Exercise 5**
+
+Create a plot that shows the average annual temperature over all years. (That is, create one plot where each data point corresponds to the average temperature for a year.) (HINT: This is easiest if you create a new vector with elements representing average temperature).
+
+```{r}
+data <- data.frame(mon, year, farhenheitTemps)
+```
+
+In what years did the highest and lowest average temperatures occur?
+
+
