@@ -128,4 +128,5 @@ filtertwo[max(filtertwo$farhenheitTemps),]
 filtertwo[min(filtertwo$farhenheitTemps),]
 ```
 Do you see any pattern to the data? Are temperatures rising? Which months had the highest and lowest temperatures?
+
 Again there is not an obvious pattern of increasing temperatures. The highest average monthly temperature over this time period was in October 1994 and the highest was in September 1994.
