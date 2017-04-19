@@ -72,3 +72,6 @@ plot(1881:2012,october,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main=
 plot(1881:2012,november,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="November Average Temperatures")
 plot(1881:2012,december,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="December Average Temperatures")
 ```
+Does there seem to be a warming trend in your graphs? Type your answer below:
+
+There appears to be a general warming trend, as all 12 of the graphs exhibit strong, positive, linear correlation.
