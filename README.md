@@ -80,7 +80,6 @@ There appears to be a general warming trend, as all 12 of the graphs exhibit str
 
 **Exercise 5**
 
-
 ```{r}
 data <- data.frame(mon, year, farhenheitTemps)
 mat <- matrix(farhenheitTemps,byrow=TRUE,ncol=12)
@@ -91,7 +90,6 @@ plot(1881:2012,avetemp,xlab="Year",ylab="Degrees Fahrenheit",main="Average Tempe
 avetemp[which(avetemp==min(avetemp))]
 avetemp[which(avetemp==max(avetemp))]
 ```
-
 In what years did the highest and lowest average temperatures occur?
 
 2010 has the highest average temperature, and 1909 has the lowest.
@@ -103,7 +101,6 @@ filter
 plot(1:length(filter$farhenheitTemps),filter$farhenheitTemps,xlab="Month (Begins at January 2000",ylab="Temperature (Degrees Fahrenheit)",main="Monthly Average Temperatures Since 2000")
 ```
 Do you see any pattern to the data? Are temperatures rising?
-
 There does not seem to be an obvious pattern of increasing average temperature over these months.
 
 **Exercise 7**
@@ -150,8 +147,8 @@ index1890s<-which(data$year%in%seq(1890,1899))
 temps1890s<-data$farhenheitTemps[index1890s]
 plot(1:length(index1890s),temps1890s,xlab="Months of 1890s (starting with January 1890)",ylab="Average Temperatures (in degrees Fahrenheit)",main="1890s Average Temperatures By Months")
 mean(temps1890s)
+mean(filtertwo$farhenheitTemps)
 ```
 What is the mean temperature of this decade? How does this decade compare to the 1990s?
 The mean temperature is 56.7 Degrees.
-
-```
+The mean temperature for the 1990s is 57.84, which is more than one degree larger than the 1890s.
