@@ -106,6 +106,19 @@ Do you see any pattern to the data? Are temperatures rising?
 
 There does not seem to be an obvious pattern of increasing average temperature over these months.
 
+**Exercise 7**
+
+Plot the annual average temperature from 2000-2012.
+
+```{r}
+plot(2000:2012,avetemp[120:132],xlab="Year",ylab="Degrees Fahrenheit",main="Average Temperatures 2000-2012")
+mean(avetemp[120:132])
+```
+
+Is it easier to see a warming trend? What is the average temperature of these 13 years?
+It is still difficult to see a warming trend from 2000-2012. The average temperature from 2000-2012 is 58.21423 degrees fahrenheit.
+
+
 **Excercise 8**
 ```{r}
 filtertwo<-data[data$year>=1990&data$year<=1999,]
