@@ -102,3 +102,6 @@ filter<-data[data$year>=2000,]
 filter
 plot(1:length(filter$farhenheitTemps),filter$farhenheitTemps,xlab="Month (Begins at January 2000",ylab="Temperature (Degrees Fahrenheit)",main="Monthly Average Temperatures Since 2000")
 ```
+Do you see any pattern to the data? Are temperatures rising?
+
+There does not seem to be an obvious pattern of increasing average temperature over these months.
