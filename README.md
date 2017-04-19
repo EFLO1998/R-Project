@@ -140,8 +140,8 @@ index1890s<-which(data$year%in%seq(1890,1899))
 temps1890s<-data$farhenheitTemps[index1890s]
 plot(1:length(index1890s),temps1890s,xlab="Months of 1890s (starting with January 1890)",ylab="Average Temperatures (in degrees Fahrenheit)",main="1890s Average Temperatures By Months")
 mean(temps1890s)
+filtertwo[mean(filtertwo$farhenheitTemps),]
 ```
 What is the mean temperature of this decade? How does this decade compare to the 1990s?
 The mean temperature is 56.7 Degrees.
-
-```
+The 1990s mean temperature is 57.74, more than a whole degree warmer.
