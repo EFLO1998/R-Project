@@ -95,3 +95,10 @@ avetemp[which(avetemp==max(avetemp))]
 In what years did the highest and lowest average temperatures occur?
 
 2010 has the highest average temperature, and 1909 has the lowest.
+
+**Excercise 6**
+```{r}
+filter<-data[data$year>=2000,]
+filter
+plot(1:length(filter$farhenheitTemps),filter$farhenheitTemps,xlab="Month (Begins at January 2000",ylab="Temperature (Degrees Fahrenheit)",main="Monthly Average Temperatures Since 2000")
+```
