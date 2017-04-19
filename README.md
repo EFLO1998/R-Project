@@ -74,6 +74,7 @@ plot(1881:2012,december,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main
 ```
 Does there seem to be a warming trend in your graphs? Type your answer below:
 
+
 There appears to be a general warming trend, as all 12 of the graphs exhibit strong, positive, linear correlation.
 
 
@@ -126,3 +127,13 @@ filtertwo
 plot(1:length(filtertwo$farhenheitTemps),filtertwo$farhenheitTemps,xlab="Month (Begins at January 1990, Ends December 1999)",ylab="Temperature (Degrees Fahrenheit)",main="Monthly Average Temperatures from 1990-1999")
 ```
 Do you see any pattern to the data? Are temperatures rising? Which months had the highest and lowest temperatures?
+
+
+
+#Exercise 10
+
+```{r}
+index1890s<-which(data$year%in%seq(1890,1899))
+temps1890s<-data$farhenheitTemps[index1890s]
+plot(1:length(index1890s),temps1890s,xlab="Months of 1890s (starting with January 1890)",ylab="Average Temperatures (in degrees Fahrenheit)",main="1890s Average Temperatures By Months")
+```
