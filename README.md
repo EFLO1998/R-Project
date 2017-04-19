@@ -138,6 +138,7 @@ plot(1990:1999,avetemp[110:119],xlab="Year",ylab="Degrees Fahrenheit",main="Aver
 mean(avetemp[110:119])
 ```
 Is it easier to see a warming trend? What is the average temperature of the 1990s?
+The warming trend is a little easier to see in this plot, but still not completely obvious. The average annual temperature of the 1990s is 57.84935.
 
 
 
