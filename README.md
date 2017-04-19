@@ -70,6 +70,7 @@ plot(1881:2012,august,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="
 plot(1881:2012,september,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="September Average Temperatures")
 plot(1881:2012,october,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="October Average Temperatures")
 plot(1881:2012,november,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="November Average Temperatures")
+
 plot(1881:2012,december,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="December Average Temperatures")
 ```
 Does there seem to be a warming trend in your graphs? Type your answer below:
@@ -137,3 +138,4 @@ index1890s<-which(data$year%in%seq(1890,1899))
 temps1890s<-data$farhenheitTemps[index1890s]
 plot(1:length(index1890s),temps1890s,xlab="Months of 1890s (starting with January 1890)",ylab="Average Temperatures (in degrees Fahrenheit)",main="1890s Average Temperatures By Months")
 ```
+What is the mean temperature of this decade? How does this decade compare to the 1990s?
