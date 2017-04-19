@@ -70,11 +70,9 @@ plot(1881:2012,august,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="
 plot(1881:2012,september,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="September Average Temperatures")
 plot(1881:2012,october,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="October Average Temperatures")
 plot(1881:2012,november,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="November Average Temperatures")
-
 plot(1881:2012,december,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="December Average Temperatures")
 ```
 Does there seem to be a warming trend in your graphs? Type your answer below:
-
 
 There appears to be a general warming trend, as all 12 of the graphs exhibit strong, positive, linear correlation.
 
@@ -126,16 +124,8 @@ It is still difficult to see a warming trend from 2000-2012. The average tempera
 filtertwo<-data[data$year>=1990&data$year<=1999,]
 filtertwo
 plot(1:length(filtertwo$farhenheitTemps),filtertwo$farhenheitTemps,xlab="Month (Begins at January 1990, Ends December 1999)",ylab="Temperature (Degrees Fahrenheit)",main="Monthly Average Temperatures from 1990-1999")
+filtertwo[max(filtertwo$farhenheitTemps),]
+filtertwo[min(filtertwo$farhenheitTemps),]
 ```
 Do you see any pattern to the data? Are temperatures rising? Which months had the highest and lowest temperatures?
-
-
-
-#Exercise 10
-
-```{r}
-index1890s<-which(data$year%in%seq(1890,1899))
-temps1890s<-data$farhenheitTemps[index1890s]
-plot(1:length(index1890s),temps1890s,xlab="Months of 1890s (starting with January 1890)",ylab="Average Temperatures (in degrees Fahrenheit)",main="1890s Average Temperatures By Months")
-```
-What is the mean temperature of this decade? How does this decade compare to the 1990s?
+Again there is not an obvious pattern of increasing temperatures. The highest average monthly temperature over this time period was in October 1994 and the highest was in September 1994.
