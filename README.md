@@ -57,3 +57,18 @@ index <- function(m,y){
     if(m==allDates[i,1]&y==allDates[i,2]) return(i)
 }
 ```
+#Exercise 4
+```{r}
+plot(1881:2012,january,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="January Average Temperatures")
+plot(1881:2012,february,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="February Average Temperatures")
+plot(1881:2012,march,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="March Average Temperatures")
+plot(1881:2012,april,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="April Average Temperatures")
+plot(1881:2012,may,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="May Average Temperatures")
+plot(1881:2012,june,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="June Average Temperatures")
+plot(1881:2012,july,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="July Average Temperatures")
+plot(1881:2012,august,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="August Average Temperatures")
+plot(1881:2012,september,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="September Average Temperatures")
+plot(1881:2012,october,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="October Average Temperatures")
+plot(1881:2012,november,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="November Average Temperatures")
+plot(1881:2012,december,xlab="Year",ylab="Temperature (Degrees Fahrenheit)",main="December Average Temperatures")
+```
