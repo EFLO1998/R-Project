@@ -80,10 +80,12 @@ There appears to be a general warming trend, as all 12 of the graphs exhibit str
 
 **Exercise 5**
 
-Create a plot that shows the average annual temperature over all years. (That is, create one plot where each data point corresponds to the average temperature for a year.) (HINT: This is easiest if you create a new vector with elements representing average temperature).
 
 ```{r}
 data <- data.frame(mon, year, farhenheitTemps)
+mat <- matrix(farhenheitTemps,byrow=TRUE,ncol=12)
+rownames(mat) <- 1881:2012
+apply(mat,1,mean)
 ```
 
 In what years did the highest and lowest average temperatures occur?
