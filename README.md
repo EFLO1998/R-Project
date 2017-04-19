@@ -105,3 +105,11 @@ plot(1:length(filter$farhenheitTemps),filter$farhenheitTemps,xlab="Month (Begins
 Do you see any pattern to the data? Are temperatures rising?
 
 There does not seem to be an obvious pattern of increasing average temperature over these months.
+
+**Excercise 8**
+```{r}
+filtertwo<-data[data$year>=1990&data$year<=1999,]
+filtertwo
+plot(1:length(filtertwo$farhenheitTemps),filtertwo$farhenheitTemps,xlab="Month (Begins at January 1990, Ends December 1999)",ylab="Temperature (Degrees Fahrenheit)",main="Monthly Average Temperatures from 1990-1999")
+```
+Do you see any pattern to the data? Are temperatures rising? Which months had the highest and lowest temperatures?
