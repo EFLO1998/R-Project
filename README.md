@@ -172,4 +172,4 @@ The mean temperature for the 1990s is 57.84, which is more than one degree large
 Do you see any warming trends in any of these plots? What is the average temperature of each of these time periods? The warming trend is not clear in either the first 44 years or the second. However, in the most recent 43 years a trend of rising average temperatures is shown. The average temperatures of the periods are as follows: First 44 - 56.6817, Second 44 - 57.10448, Final 43 - 57.75451.
 
 *Exemplary Status*
-The plan is to download the data for just the mean of N and S hemisphere and then comapre the difference.
+The plan is to download the data for just the mean of N and S hemisphere and then comapre the difference. We are struggling to convert the data in the same way as before but once we do it should be pretty easy. 
