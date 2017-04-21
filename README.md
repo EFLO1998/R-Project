@@ -303,9 +303,9 @@ mean(northFarTemps)
 southFarTemps<- southtemp * (9/5)+57.2
 mean(southFarTemps)
 
-#
+#The difference between the North and South hemisphere.
 diff<-northFarTemps-southFarTemps
 mean(diff)
 
 ```
-From the above calculation, we can see that the mean difference between the South and North hemisphere temperature over the past century is about 0.086.
+From the above calculation, we can see that the mean difference between the South and North hemisphere temperature over the past century is about 0.086, i.e. the North hemisphere's average temperature is 0.086 Fahrenheit higher than the South hemisphere. 
