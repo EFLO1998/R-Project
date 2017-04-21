@@ -308,4 +308,4 @@ diff<-northFarTemps-southFarTemps
 mean(diff)
 
 ```
-From the above calculation, we can see that the mean difference between the South and North hemisphere temperature over the past century is about 0.086, i.e. the North hemisphere's average temperature is 0.086 Fahrenheit higher than the South hemisphere. 
+From the above calculation, we can see that the mean difference between the South and North hemisphere temperature over the past century is about 0.086, i.e. the North hemisphere's average temperature is 0.086 Fahrenheit higher than the South hemisphere. This finding is incerdibly important as it hints that more developed nations are more negatively affecting the environment. Countries across North America and Europe are known for mass use of fossil fuels and other environmentally damaging resources over the past couple centuries which must be stopped as other nations develop in the global South.
