@@ -193,6 +193,7 @@ plot(1:length(filter$farhenheitTemps),filter$farhenheitTemps,xlab="Month (Begins
 ```
 
 Do you see any pattern to the data? Are temperatures rising? 
+There is not really a pattern to this data. It is not clear whether the temperatures are rising or falling.
 
 
 **Exercise 7**
